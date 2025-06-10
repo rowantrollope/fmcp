@@ -1,1 +1,23 @@
 ## My First MCP server
+
+This repository contains a very basic MCP (Minimal Chat Protocol) server implemented in Node.js.
+
+### Requirements
+
+- [Node.js](https://nodejs.org/) 16+.
+
+### Running the server
+
+Install dependencies (none are required aside from Node's standard library) and start the server using:
+
+```bash
+node server.js
+```
+
+By default, the server listens on port `9000`. You can change the port with the `PORT` environment variable:
+
+```bash
+PORT=1234 node server.js
+```
+
+Connecting to the server with `telnet` or `nc` will display a welcome message and echo any text you send back to you.
